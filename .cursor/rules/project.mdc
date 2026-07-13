@@ -1,0 +1,30 @@
+---
+alwaysApply: true
+---
+
+# Project Context
+
+This project is a personal portfolio for Krishna Yaswanth.
+
+The goal is to showcase frontend engineering skills for product-based companies such as Microsoft, Adobe, Atlassian, PhonePe, Razorpay, Flipkart, BrowserStack, Swiggy, and Meesho.
+
+The design language should resemble Vercel.
+
+Focus on:
+
+- simplicity
+- premium UI
+- responsive design
+- accessibility
+- performance
+- reusable architecture
+
+Never generate placeholder lorem ipsum.
+
+Never invent fake experience.
+
+Content should match the user's resume.
+
+Prefer reusable components.
+
+Every component should be production-ready.

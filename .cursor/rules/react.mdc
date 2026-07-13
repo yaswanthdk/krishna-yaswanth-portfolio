@@ -1,0 +1,31 @@
+---
+alwaysApply: true
+---
+# React Rules
+
+Prefer composition over inheritance.
+
+Avoid unnecessary useEffect.
+
+Prefer derived state over duplicated state.
+
+Use memoization only when it provides measurable benefits.
+
+Keep components pure.
+
+Avoid large page components.
+
+Extract reusable logic into hooks.
+
+Use proper loading and error states.
+
+Never use index as a key unless the list is static.
+
+Prefer async Server Components whenever possible.
+
+Use Client Components only for:
+
+- animations
+- event handlers
+- browser APIs
+- state management

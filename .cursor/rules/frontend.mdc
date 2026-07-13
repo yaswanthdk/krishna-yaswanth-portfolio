@@ -1,0 +1,173 @@
+---
+alwaysApply: true
+---
+## TypeScript
+
+- Always use strict typing.
+- Never use `any`.
+- Prefer interfaces for component props.
+- Use proper return types.
+- Prefer type inference when obvious.
+
+---
+
+## Components
+
+- Keep components under 200 lines whenever possible.
+- One responsibility per component.
+- Use reusable components.
+- Extract repeated UI into separate components.
+- Use named exports where appropriate.
+- Avoid deeply nested JSX.
+
+---
+
+## React
+
+- Use functional components only.
+- Prefer Server Components by default.
+- Use Client Components only when necessary.
+- Avoid unnecessary state.
+- Avoid prop drilling when possible.
+- Use custom hooks for reusable logic.
+
+---
+
+## Styling
+
+- Tailwind CSS only.
+- Never use inline styles unless absolutely necessary.
+- Use responsive classes.
+- Use consistent spacing.
+- Follow a clean and minimal design.
+
+---
+
+## shadcn/ui
+
+- Prefer shadcn components over custom implementations.
+- Customize through composition instead of rewriting components.
+
+---
+
+## Accessibility
+
+- Use semantic HTML.
+- Every button must have meaningful text or an aria-label.
+- Images must include alt text.
+- Forms must use labels.
+- Ensure keyboard accessibility.
+
+---
+
+## Performance
+
+- Minimize unnecessary re-renders.
+- Lazy load when appropriate.
+- Optimize images.
+- Avoid unnecessary useEffect.
+- Memoize only when beneficial.
+
+---
+
+## Folder Structure
+
+Follow this structure:
+
+app/
+
+components/
+    layout/
+    sections/
+    ui/
+
+hooks/
+
+lib/
+
+types/
+
+constants/
+
+public/
+
+---
+
+## Naming
+
+Components:
+PascalCase
+
+Hooks:
+useSomething.ts
+
+Utilities:
+camelCase
+
+Constants:
+UPPER_CASE where appropriate.
+
+---
+
+## Imports
+
+Always use the alias:
+
+@/
+
+Example:
+
+import Hero from "@/components/sections/Hero";
+
+Never use long relative imports.
+
+---
+
+## Comments
+
+Write comments only when they explain WHY.
+
+Do not write comments that explain WHAT the code is doing.
+
+---
+
+## Code Quality
+
+Write production-ready code.
+
+Avoid duplicated logic.
+
+Prefer readability over cleverness.
+
+Keep files organized.
+
+Use meaningful variable names.
+
+---
+
+## Animations
+
+Use Framer Motion sparingly.
+
+Animations should be subtle and improve UX.
+
+Never over-animate.
+
+---
+
+## Portfolio Goal
+
+The final application should feel like a premium SaaS product similar to Vercel.
+
+Design principles:
+
+- Minimal
+- Clean
+- Fast
+- Modern
+- Accessible
+- Professional
+
+Avoid flashy effects.
+
+Focus on engineering quality.
