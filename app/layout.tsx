@@ -4,7 +4,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
-import { siteConfig } from "@/constants/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { siteMetadata } from "@/lib/metadata";
 
 import "./globals.css";
 
@@ -18,14 +19,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s | ${siteConfig.name}`,
-  },
-  description: siteConfig.description,
-  metadataBase: new URL(siteConfig.url),
-};
+export const metadata: Metadata = siteMetadata;
 
 export default function RootLayout({
   children,
@@ -39,6 +33,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-screen bg-background font-sans text-foreground antialiased">
+        <JsonLd />
         <ThemeProvider>
           <div className="relative flex min-h-screen flex-col">
             <Navbar />
