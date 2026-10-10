@@ -1,5 +1,6 @@
 import { About } from "@/components/sections/About";
 import { Contact } from "@/components/sections/Contact";
+import { Education } from "@/components/sections/Education";
 import { Experience } from "@/components/sections/Experience";
 import { Hero } from "@/components/sections/Hero";
 import { Projects } from "@/components/sections/Projects";
@@ -17,6 +18,8 @@ export default function Home() {
       <Projects />
       <div className="border-t border-border/50" />
       <Skills />
+      <div className="border-t border-border/50" />
+      <Education />
       <div className="border-t border-border/50" />
       <Contact />
     </>
