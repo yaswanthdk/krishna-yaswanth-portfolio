@@ -34,7 +34,7 @@ export function About() {
 
             <div className="space-y-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
               <p>
-                I'm a Frontend Engineer with 3+ years of experience building scalable React applications for education technology platforms. I enjoy solving complex UI problems, designing reusable architectures, and creating fast, intuitive user experiences.
+                I&apos;m a Frontend Engineer with 3+ years of experience building scalable React applications for education technology platforms. I enjoy solving complex UI problems, designing reusable architectures, and creating fast, intuitive user experiences.
               </p>
               <p>
               My recent work focused on modernizing a production LMS by migrating from CRA to Vite, SCSS to Tailwind CSS, and Redux to Zustand, significantly improving developer experience and application performance. I also built a custom whiteboard with React Konva and integrated SCORM learning packages with analytics tracking.
