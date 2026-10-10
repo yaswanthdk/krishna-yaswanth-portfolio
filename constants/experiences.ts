@@ -62,22 +62,25 @@ export const experiences: Experience[] = [
     duration: "Sep 2022 – Apr 2024",
     location: "Chennai, India",
     description:
-      "Developed and enhanced React.js applications for enterprise clients by implementing reusable UI components and business-critical features within Agile delivery teams.",
+      "Developed and enhanced React.js applications for enterprise clients, focusing on reusable UI architecture, API integration, and reliable delivery within Agile teams.",
     contributions: [
+      "Developed and enhanced enterprise React.js applications by implementing reusable UI components and business-critical features.",
       "Integrated REST APIs and collaborated with backend teams to deliver reliable and scalable frontend functionality.",
-      "Debugged complex application issues involving routing, state management, and asynchronous data flows.",
-      "Contributed to sprint planning, feature delivery, and continuous code quality improvements.",
+      "Debugged complex application issues involving routing, state management, and asynchronous data flows, improving application stability.",
+      "Worked within Agile teams, contributing to sprint planning, feature delivery, and continuous code quality improvements.",
     ],
     impact: [
-      "Improved overall application stability by resolving routing, state management, and async data flow issues.",
-      "Delivered business-critical features through reusable component patterns across enterprise React applications.",
+      "Improved application stability by resolving routing, state management, and asynchronous data flow issues.",
+      "Shipped business-critical frontend capabilities through reusable component patterns on enterprise React codebases.",
     ],
     technologies: [
-      "React",
+      "React.js",
       "JavaScript",
-      "Redux Toolkit",
       "REST APIs",
-      "SCSS",
+      "State Management",
+      "Routing",
+      "Git",
+      "Agile",
     ],
   },
 ];

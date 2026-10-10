@@ -4,7 +4,7 @@ export const siteConfig = {
   url: "https://krishnayaswanth.com",
   resume: "/01_Krishna yaswanth Resume.pdf",
   links: {
-    github: "https://github.com/Krishna-Yaswanth",
+    github: "https://github.com/yaswanthdk",
     linkedin: "https://linkedin.com/in/krishna-yaswanth",
     email: "mailto:yashwanthdk@gmail.com",
   },
